@@ -1,0 +1,11 @@
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: flask-map
+data:
+   FLASK_APP: flaskdemo.py
+   FLASK_ENV: development
+   FLASK_MESSAGE: Configuration Management for Default
+   FLASK_RUN_HOST: "0.0.0.0"
+   FLASK_RUN_PORT: "3000"
+   IMAGE: <IMAGE>
