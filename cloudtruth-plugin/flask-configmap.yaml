@@ -3,9 +3,9 @@ apiVersion: v1
 metadata:
   name: flask-map
 data:
-   FLASK_APP: flaskdemo.py
-   FLASK_ENV: development
-   FLASK_MESSAGE: Configuration Management for Default
-   FLASK_RUN_HOST: "0.0.0.0"
-   FLASK_RUN_PORT: "3000"
+   FLASK_APP: "<FLASK_APP>"
+   FLASK_ENV: "<FLASK_ENV>"
+   FLASK_MESSAGE: "<FLASK_MESSAGE>"
+   FLASK_RUN_HOST: "<FLASK_RUN_HOST>"
+   FLASK_RUN_PORT: "<FLASK_RUN_PORT>"
    IMAGE: "<IMAGE>"
